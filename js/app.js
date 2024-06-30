@@ -138,4 +138,6 @@
         square.addEventListener('click', handleClick);
         
       });
-      
+
+
+      resetBtn.addEventListener('click',init);
