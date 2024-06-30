@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 325px;
+    margin: 0 auto;
   }
   
   .sqr {
@@ -21,3 +22,8 @@ body {
     font-size: 64px;
     text-align: center;
   }
+
+ .reset{
+
+    color: brown;
+ }
