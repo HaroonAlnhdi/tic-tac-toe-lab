@@ -33,6 +33,9 @@
     const init = () => {
 
     board = ['','','','','','','','','']; 
+    winner = false
+    tie = false
+    turn ='X'
        render(); 
     }
     
@@ -68,7 +71,7 @@
     
     function handleClick(event) {
         const squareIndex = parseInt(event.target.id);
-    
+        
         if (board[squareIndex] !== '' || winner) {
             return;
         }

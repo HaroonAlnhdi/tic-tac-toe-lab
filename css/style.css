@@ -29,10 +29,11 @@ body {
     margin: 20px auto;
     height: 30px;
     width: 50px;
-    
+
 
  }
 
  body{
     text-align: center;
+    background-color: azure;
  }
